@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build ISBNTester",
+			"type": "shell",
+			"command": "g++ -o ISBNTester ISBNTester.cpp main.cpp",
+			"args": [],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Build ISBNTester",
+			"type": "shell",
+			"command": "g++ -o ISBNTester ISBNTester.cpp main.cpp",
+			"args": [],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
